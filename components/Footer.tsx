@@ -49,11 +49,6 @@ export default function Footer() {
                             <strong>Email:</strong> <br/>
                              siddsg395@gmail.com
                         </p>
-                        <p> 
-                            <strong>Location: </strong> <br/>
-                            123 Fitness Ave <br/>
-                            Healthy City, HC 1245
-                        </p>
                     </div>
                 </div>
 
