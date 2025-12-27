@@ -2,7 +2,6 @@ import { programs } from '@/lib/constants';
 import * as motion from 'motion/react-client';
 import { Card, CardContent } from './ui/card';
 import Image from 'next/image';
-import { easeOut } from 'motion';
 import { Button } from './ui/button';
 import Link from 'next/link';
 
@@ -24,7 +23,7 @@ export default function Programs() {
                     whileInView = {{opacity:1, y: 0}}
                     transition={{duration: 0.6, ease: "easeOut", delay: 0.1}}
                     viewport={{once: true}}
-                    className="text-xl text-muted-foreground max-w-2xl mx-auto">"No matter where you are in your fitness journey, we have a program tailored to your needs. From elite athletic performance to holistic nutrition coaching, discover how our data-driven approach can help you crush your goals and elevate your lifestyle."</motion.p>
+                    className="text-xl text-muted-foreground max-w-2xl mx-auto">`&quot;`No matter where you are in your fitness journey, we have a program tailored to your needs. From elite athletic performance to holistic nutrition coaching, discover how our data-driven approach can help you crush your goals and elevate your lifestyle.`&quot;`</motion.p>
                 </div>
             {/* Cards */}
 

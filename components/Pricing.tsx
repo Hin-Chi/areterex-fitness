@@ -1,7 +1,6 @@
 import { plans } from '@/lib/constants'
 import * as motion from 'motion/react-client'
 import { Card, CardContent, CardHeader } from './ui/card'
-import { Button } from './ui/button'
 import { Badge } from './ui/badge'
 import { Check } from 'lucide-react'
 import PriceModal from './PriceModal'

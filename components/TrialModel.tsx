@@ -65,6 +65,7 @@ export default function TrialModel() {
       });
     }
   } catch (error) {
+    console.log(error);
     toast.error("Network Error. Please try again.");
   } finally {
     setIsSubmitting(false);

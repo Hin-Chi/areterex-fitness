@@ -1,4 +1,3 @@
-import { section } from "motion/react-client";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import * as motion from 'motion/react-client';

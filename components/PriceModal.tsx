@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -9,14 +8,14 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Smartphone, Laptop, QrCode } from "lucide-react";
+import { QrCode } from "lucide-react";
 import Image from "next/image";
-import { plans } from '@/lib/constants'
+
 
 interface PaymentProps {
   planName: string;
   amount: number;
-  Pop: Boolean;
+  Pop: boolean;
   qrImage: string;
 }
 

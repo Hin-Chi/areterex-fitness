@@ -1,5 +1,5 @@
 import { navItems } from "@/lib/constants";
-import { Instagram, Youtube } from "lucide-react";
+import { Instagram } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {

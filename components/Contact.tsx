@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Loader2 } from "lucide-react"; // Install lucide-react if not present
+import { Mail, Phone, Loader2 } from "lucide-react"; // Install lucide-react if not present
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -35,6 +35,7 @@ export default function Contact() {
        throw new Error();
       }
     } catch (error) {
+      console.log(error);
      // 3. Error Sonner Notification
       toast.error("Submission failed", {
         description: "Please check your network and try again.",
