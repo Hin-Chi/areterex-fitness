@@ -41,8 +41,8 @@ export default function PaymentModal({ planName, amount, Pop, qrImage }: Payment
         <div className="space-y-6 py-4">
           {/* Option 1: Mobile Pay */}
           <div className="md:hidden">
-            <p className="text-center text-sm text-gray-500 mb-4">Click below to pay using any UPI app</p>
-            <Button asChild className="w-full h-14 bg-black text-white text-lg">
+            <p className="text-center text-sm text-white-500 mb-4">Click below to pay using any UPI app</p>
+            <Button asChild className="w-full h-14 text-white text-lg dark:bg-red ">
               <a href={upiUrl}>Pay via UPI App</a>
             </Button>
           </div>
