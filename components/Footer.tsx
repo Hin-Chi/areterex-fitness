@@ -47,7 +47,7 @@ export default function Footer() {
                         </p>
                         <p>
                             <strong>Email:</strong> <br/>
-                             siddsg395@gmail.com
+                             areterex.fithub@gmail.com
                         </p>
                     </div>
                 </div>

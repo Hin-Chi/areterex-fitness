@@ -21,17 +21,17 @@ export default function About() {
     },
     {
       icon: <Trophy className="text-red-500 w-6 h-6" />,
-      title: "ACE Health Coach",
-      description: "ACE-HC",
-      file: "/cert/ACE-HC.pdf",
-      preview: "/cert/ACE-HC.jpg"
+      title: "ACE Sports Nutritionist",
+      description: "ACE-SN",
+      file: "/cert/ACE-SN.pdf",
+      preview: "/cert/ACE-SN.jpg"
     },
     {
       icon: <Trophy className="text-red-500 w-6 h-6" />,
-      title: "American Council on Exercise",
-      description: "ACE-GFI",
-      file: "/cert/ACE-GFI.pdf",
-      preview: "/cert/ACE-GFI.jpg"
+      title: "Indian Red Cross Society CPR Certificate",
+      description: "IRCS-CPR",
+      file: "/cert/ACE-CPR.pdf",
+      preview: "/cert/ACE-CPR.jpg"
     }
   ];
 

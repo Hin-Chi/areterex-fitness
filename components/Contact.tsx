@@ -67,7 +67,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center gap-4">
                 <div className="bg-red-500/10 p-3 rounded-full"><Mail className="text-red-500" /></div>
-                <span>siddsg395@gmail.com</span>
+                <span>areterex.fithub@gmail.com</span>
               </div>
               
             </div>
