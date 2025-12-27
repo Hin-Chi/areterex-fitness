@@ -15,7 +15,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Areterex Fitness - Transform you Body, Transform Your Life",
+  title: "Areterex FitHub - Transform you Body, Transform Your Life",
   description: "By Siddhant Ghosh",
 };
 
