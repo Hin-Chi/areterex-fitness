@@ -64,7 +64,7 @@ export default function Programs() {
                                 <div>
                                     <Link href="#contact">
                                     <Button variant="outline" className="w-full transition-colors
-                                    duration-300 hover:bg-primary hover:text-white group-hover:bg-primary
+                                    duration-300 hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white group-hover:bg-primary
                                     dark:group-hover:bg-primary
                                     group-hover:text-primary-foreground
                                     ">Learn more</Button>
